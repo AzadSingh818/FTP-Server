@@ -28,7 +28,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
         await client.access({
             host: "127.0.0.1",
             user: "ftp",
-            password: "Admin@123",
+            password: "###########",
             secure: true, // Enable FTPS
             secureOptions: {
                 rejectUnauthorized: false // <--- Important: ignore self-signed cert
